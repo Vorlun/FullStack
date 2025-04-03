@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #499CC1;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    min-height: 400px;
+    margin: 50px auto;
+    text-align: center;
+    
+
+}
+h2{
+    padding: 10px;
+
+}
+
+.add-form{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.add-input{
+    width: 85%;
+}
+.plus-button{
+    width: 10%;
+    background-color: greenyellow;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.plus-button:active{
+    background-color: red;
+}
+.items{
+    margin-top:25px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 5px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+}
